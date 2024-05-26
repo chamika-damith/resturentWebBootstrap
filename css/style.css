@@ -6,10 +6,6 @@ body{
     line-height: 1.7;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight: 600;
-    color: #222;
-}
 
 a{
     color: #222;
@@ -42,4 +38,32 @@ a{
     color: #fff;
     border-color: #d37810;
     background-color: #d37810;
+}
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(/assest/heroImg01.jpg);
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(/assest/heroImg02.jpg);
+}
+.bg-cover{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+#carouselExample h6::after,
+#carouselExample h6::before{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
 }
